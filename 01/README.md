@@ -17,7 +17,7 @@ $$
 \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \geq n
 $$
 
-其中，$a_1, a_2, \dots, a_n$ 是实数，而 $f: \{1,2,\dots,n\} \rightarrow \{1,2,\dots,n\}$ 是双射函数。
+其中, $a_1, a_2, \dots, a_n$ 是实数，而 $f: \{1,2,\dots,n\} \rightarrow \{1,2,\dots,n\}$ 是双射函数。
 
 ## 问题陈述
 
