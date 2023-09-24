@@ -6,7 +6,7 @@
 设 $f:\{1,2,\dots,n\} \rightarrow \{1,2,\dots,n\}$ 为双射，证明：
 
 \[
-\sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \geq n
+    \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \geq n
 \]
 
 其中 $a_1, a_2, \dots, a_n$ 均为实数。
@@ -15,43 +15,43 @@
 解：根据康托罗维奇不等式，我们有：
 
 \[
-\left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq \left( \sum_{k=1}^{n} \left( \frac{a_{f(k)}}{\sqrt{a_k}} \right)^2 \right) \left( \sum_{k=1}^{n} a_k \right)
+    \left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq \left( \sum_{k=1}^{n} \left( \frac{a_{f(k)}}{\sqrt{a_k}} \right)^2 \right) \left( \sum_{k=1}^{n} a_k \right)
 \]
 
 化简上述不等式，得到：
 
 \[
-\left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq \left( \sum_{k=1}^{n} \frac{a_{f(k)}^2}{a_k} \right) \left( \sum_{k=1}^{n} a_k \right)
+    \left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq \left( \sum_{k=1}^{n} \frac{a_{f(k)}^2}{a_k} \right) \left( \sum_{k=1}^{n} a_k \right)
 \]
 
 由于$f$是双射，我们可以对右侧的两个求和符号进行重新排列。
 
 \[
-\left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq \left( \sum_{k=1}^{n} \frac{a_{k}}{a_k} \right) \left( \sum_{k=1}^{n} a_k \right)
+    \left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq \left( \sum_{k=1}^{n} \frac{a_{k}}{a_k} \right) \left( \sum_{k=1}^{n} a_k \right)
 \]
 
 继续化简，我们得到：
 
 \[
-\left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq n \left( \sum_{k=1}^{n} a_k \right)
+    \left( \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \right)^2 \leq n \left( \sum_{k=1}^{n} a_k \right)
 \]
 
 因为$a_k$是实数，所以根据不等式平方的性质，我们可以得到：
 
 \[
-\sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \geq \sqrt{n \left( \sum_{k=1}^{n} a_k \right)}
+    \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k}} \cdot \sqrt{a_k} \geq \sqrt{n \left( \sum_{k=1}^{n} a_k \right)}
 \]
 
 最后，我们对不等式两边同时平方，得到：
 
 \[
-\left( \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \right) \left( \sum_{k=1}^{n} a_k \right) \geq n \left( \sum_{k=1}^{n} a_k \right)
+    \left( \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \right) \left( \sum_{k=1}^{n} a_k \right) \geq n \left( \sum_{k=1}^{n} a_k \right)
 \]
 
 这进一步简化为：
 
 \[
-\sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \geq n
+    \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \geq n
 \]
 
 \section*{附录}
@@ -69,7 +69,7 @@
 取到$b_k$为$a_1, a_2, \dots, a_n$的一个重排列，我们可以得到：
 
 \[
-\left( \sum_{k=1}^{n} a_k b_k \right)^2 \leq \left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} b_k^2 \right)
+    \left( \sum_{k=1}^{n} a_k b_k \right)^2 \leq \left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} b_k^2 \right)
 \]
 
 由于$b_1, b_2, \dots, b_n$是$a_1, a_2, \dots, a_n$的一个重排列，那么$b_1, b_2, \dots, b_n$也可以看作是$f(1), f(2), \dots, f(n)$的一个重排列，其中$f:\{1,2,\dots,n\} \rightarrow \{1,2,\dots,n\}$是一个双射。即存在一个双射$f$，使得$b_k=a_{f(k)}$。
@@ -77,37 +77,37 @@
 将上述等式改写为：
 
 \[
-\left( \sum_{k=1}^{n} a_k a_{f(k)} \right)^2 \leq \left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} a_{f(k)}^2 \right)
+    \left( \sum_{k=1}^{n} a_k a_{f(k)} \right)^2 \leq \left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} a_{f(k)}^2 \right)
 \]
 
 进一步展开，我们得到：
 
 \[
-\left( \sum_{k=1}^{n} a_k a_{f(k)} \right)^2 \leq \left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} a_{f(k)}^2 \right)
+    \left( \sum_{k=1}^{n} a_k a_{f(k)} \right)^2 \leq \left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} a_{f(k)}^2 \right)
 \]
 
 因为$f$是双射，我们可以对右边的两个求和符号进行重新排列：
 
 \[
-\sum_{k=1}^{n} a_k a_{f(k)} \leq \sqrt{\left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} a_{f(k)}^2 \right)}
+    \sum_{k=1}^{n} a_k a_{f(k)} \leq \sqrt{\left( \sum_{k=1}^{n} a_k^2 \right) \left( \sum_{k=1}^{n} a_{f(k)}^2 \right)}
 \]
 
 继续化简，我们得到：
 
 \[
-\frac{\sum_{k=1}^{n} a_{f(k)}}{\sqrt{\sum_{k=1}^{n} a_k^2}} \geq 1
+    \frac{\sum_{k=1}^{n} a_{f(k)}}{\sqrt{\sum_{k=1}^{n} a_k^2}} \geq 1
 \]
 
 由于$a_1, a_2, \dots, a_n$是实数，所以我们可以将其写成绝对值的形式：
 
 \[
-\left| \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k^2}} \right| \geq 1
+    \left| \sum_{k=1}^{n} \frac{a_{f(k)}}{\sqrt{a_k^2}} \right| \geq 1
 \]
 
 进一步化简，我们得到康托罗维奇不等式：
 
 \[
-\left| \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \right| \geq 1
+    \left| \sum_{k=1}^{n} \frac{a_{f(k)}}{a_k} \right| \geq 1
 \]
 
 其中$f:\{1,2,\dots,n\} \rightarrow \{1,2,\dots,n\}$是一个双射。
