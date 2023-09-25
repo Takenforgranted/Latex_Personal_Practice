@@ -1,5 +1,5 @@
 # 01：数学不等式证明（题目来自群u）
-(# I just transfer something I don't know from ChatGPT
+(## I just transfer something I don't know from ChatGPT.
 ## ~~SunBa Rat数学不好，只能住下水道了:sob::sob:~~)
 
 这份LaTeX文档包含了一个数学不等式的证明，以及一个解释康托-伯恩斯坦-施罗德定理的附录。**(~~LATEX无法在GitHub页面渲染！！！~~md玩我！！！)**
